@@ -1,0 +1,17 @@
+{% extends "base.html "%}
+
+    {%block content%}
+    <form action="{{url_for('traitement_question3')}}" method="POST" >
+        <center>
+            <h1>SECOND QUESTION</h1>
+        </center>
+        <div class="question">
+            <p>3. Quel pilote détient le record de victoires en Grand Prix ?</p>
+            <label><input type="radio" name="q3" value="A"> A) Ayrton Senna</label>
+            <label><input type="radio" name="q3" value="B"> B) Michael Schumacher</label>
+            <label><input type="radio" name="q3" value="C"> C) Lewis Hamilton</label>
+            <label><input type="radio" name="q3" value="D"> D) Alain Prost</label>
+        </div>
+            <button>Next pit-stop</button>
+    </form>
+    {%endblock%}

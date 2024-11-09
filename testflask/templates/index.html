@@ -1,0 +1,19 @@
+{% extends "base.html "%}
+
+    {%block content%}
+    <form action="{{url_for('traitement')}}" method="POST">
+        <center><div class="arc">
+            <span class="arc-title" style="transform: rotate(-10deg);">Bienvenue</span>
+            <span class="arc-title" style="transform: rotate(15deg);">au</span>
+            <span class="arc-title" style="transform: rotate(-20deg);">Quiz</span>
+            <span class="arc-title" style="transform: rotate(15deg);">F1</span>
+            <span class="arc-title" style="transform: rotate(30deg);">!</span>
+        </div></center>
+            <p>if you're ready to get started</p>
+            <p>please enter your name</p>
+            <input type="text" name="nom" class="nom" placeholder="Enter your name" required >
+            <button>Lights out and away we go</button>
+    </form>
+    
+    {%endblock%}
+

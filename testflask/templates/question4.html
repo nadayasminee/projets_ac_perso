@@ -1,0 +1,17 @@
+{% extends "base.html "%}
+
+    {%block content%}
+    <form action="{{url_for('traitement_question4')}}" method="POST" >
+        <center>
+            <h1>FIRST QUESTION</h1>
+        </center>
+        <div class="question">
+            <p>4. Quelle ville accueille chaque année un Grand Prix de F1 sur un circuit de rue célèbre ?</p>
+            <label><input type="radio" name="q4" value="A"> A) New York</label>
+            <label><input type="radio" name="q4" value="B"> B) Monaco</label>
+            <label><input type="radio" name="q4" value="C"> C) Rome</label>
+            <label><input type="radio" name="q4" value="D"> D) Paris</label>
+        </div>
+            <button>Next pit-stop</button>
+    </form>
+    {%endblock%}

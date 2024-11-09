@@ -1,0 +1,17 @@
+{% extends "base.html "%}
+
+    {%block content%}
+    <form action="{{url_for('traitement_question2')}}" method="POST" >
+        <center>
+            <h1>SECOND QUESTION</h1>
+        </center>
+        <div class="question">
+            <p>2. Comment s'appelle le championnat de Formule 1 organisé chaque année ?</p>
+            <label><input type="radio" name="q2" value="A"> A) La Coupe du Monde de F1</label>
+            <label><input type="radio" name="q2" value="B"> B) Le Grand Prix de F1</label>
+            <label><input type="radio" name="q2" value="C"> C) Le Championnat du Monde de F1</label>
+            <label><input type="radio" name="q2" value="D"> D) Le Challenge de F1</label>
+        </div>
+            <button>Next pit-stop</button>
+    </form>
+{%endblock%}

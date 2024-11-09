@@ -1,0 +1,17 @@
+{% extends "base.html "%}
+
+    {%block content%}
+    <form action="{{url_for('traitement_question5')}}" method="POST" >
+        <center>
+            <h1>FIRST QUESTION</h1>
+        </center>
+        <div class="question">
+            <p>5. Combien de roues possède une voiture de Formule 1 ?</p>
+            <label><input type="radio" name="q5" value="A"> A) 2</label>
+            <label><input type="radio" name="q5" value="B"> B) 3</label>
+            <label><input type="radio" name="q5" value="C"> C) 4</label>
+            <label><input type="radio" name="q5" value="D"> D) 6</label>
+        </div>
+            <button>Finish line</button>
+    </form>
+    {%endblock%}

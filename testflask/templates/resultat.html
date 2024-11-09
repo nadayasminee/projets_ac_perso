@@ -1,0 +1,8 @@
+{% extends "base.html "%}
+
+    {%block content%}
+    <h1>Votre score final est : {{ score }} / 5</h1>
+    <h2>Moyenne : {{ moyenne }}%</h2>
+    <p>{{ message }}</p>
+    <a href="{{ url_for('bonjour') }}">Recommencer le Quiz</a>
+    {%endblock%}

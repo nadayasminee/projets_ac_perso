@@ -1,0 +1,90 @@
+
+            body {
+            background-image: url('/static/rb.jpg');
+            background-size: cover;              
+                  
+            background-repeat: no-repeat;    
+            padding: 20%; 
+              
+        }
+        .log{
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+            text-align: center; 
+            align-items: center;
+            margin: 0 auto;
+            padding: 20px;
+            width: 60%;
+            border-radius: 20px;
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+
+        }
+        .nom{
+            width: 60%;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 2px solid ;
+    border-radius: 20px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+        }
+        .arc {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin-top: 50px;
+        }
+
+        .arc-title {
+            font-size: 36px;
+            font-family: 'Bebas Neue', sans-serif;
+            display: inline-block;
+            transition: transform 0.3s; 
+        }
+
+    button{
+        width: 55%;                  
+        padding: 8px 10px;           
+        font-size: 18px;   
+        background: rgb(196, 86, 93);
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        }
+       
+        p,label{
+            font-family: 'Audiowide', sans-serif;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+        label {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        a{
+            width: 55%;                  
+            padding: 8px 10px;           
+            font-size: 18px;   
+            background: rgb(196, 86, 93);
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            margin-bottom: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ffffff;
+            box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            }

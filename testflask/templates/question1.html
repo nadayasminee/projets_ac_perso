@@ -1,0 +1,17 @@
+{% extends "base.html "%}
+
+    {%block content%}
+    <form action="{{url_for('traitement_question1')}}" method="POST">
+        <center>
+            <h1>FIRST QUESTION</h1>
+        </center>
+        <div class="question">
+        <p>1. Quelle est la couleur de la voiture de l’écurie Ferrari en Formule 1 ?</p>
+        <label><input type="radio" name="q1" value="A"> A) Bleu</label><br>
+        <label><input type="radio" name="q1" value="B"> B) Rouge</label><br>
+        <label><input type="radio" name="q1" value="C"> C) Jaune</label><br>
+        <label><input type="radio" name="q1" value="D"> D) Vert</label><br>
+        </div>
+            <button>Next pit-stop</button>
+    </form>
+{%endblock%}
