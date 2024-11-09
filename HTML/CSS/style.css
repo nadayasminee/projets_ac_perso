@@ -1,0 +1,86 @@
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#header { 
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+#top-header {
+    background-color: #2b2a4c;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-header h1 {
+    color: #eee2de;
+    margin-right: 10px;
+
+}
+
+#bottom-header {
+    background-image: url("car.jpg");
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #2b2a4c;
+    color: #eee2de; 
+    margin-bottom: -10px;
+    text-align: center;
+    align-items: center;
+}
+
+#footer h3 {
+    color: #eee2de; 
+    text-decoration: underline;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer ul li {
+    margin-bottom: 10px;
+    
+}
+
+#footer a {
+    color: #eee2de;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+.radio{
+    justify-content: space-between;
+    margin-inline-start: 20px;
+}
+.show-login{
+    background: none;
+    border:none;
+    cursor: pointer;
+}

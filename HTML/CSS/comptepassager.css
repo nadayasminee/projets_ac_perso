@@ -1,0 +1,116 @@
+.containerr{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.formulaire h3, .journey h3{
+    text-align: center;
+   
+}
+  
+
+.journey{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.champs {
+    display: flex;
+    
+}
+
+
+.champs label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #403e57;
+    display: inline-block;
+    margin-right:10px ;
+    width: 140px;
+    text-align: right;
+}
+
+
+.formulaire input {
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #2b2a4c;
+    border-radius: 20px;
+    width: 200px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.journey table {
+    margin-top: auto; 
+    margin-bottom: auto;
+align-self: center; }
+.table tr{
+    text-align: left;
+    
+}
+
+
+
+.table td{
+    padding: 5px 12px;
+    background-color: #f3f3f3;
+    
+}
+
+.table thead{
+    background-color: #2b2a4c;
+    color: #f3f3f3;
+    padding: 5px 12px;
+}
+
+
+
+.boutton-table{
+    background: rgb(196, 86, 93);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    
+}
+
+.boutton {
+    background: rgb(196, 86, 93);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    
+}
+.table .button-row {
+    background-color: transparent;
+}
+
+

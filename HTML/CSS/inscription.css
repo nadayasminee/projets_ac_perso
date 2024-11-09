@@ -1,0 +1,51 @@
+.boutton,.bouttonF {
+    width: 120%;
+    background: rgb(196, 86, 93);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+#formulaire label,
+#formulaire input,
+#formulaire select {
+    margin-bottom: 10px;
+    display: block; 
+}
+
+#formulaire input ,#formulaire select{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #2b2a4c;
+    border-radius: 20px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+#formulaire select{
+    width: 122%;
+    text-align: center;
+    color: gray;
+
+}
+

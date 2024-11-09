@@ -1,0 +1,139 @@
+*
+
+.trajet{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    border-color: #2b2a4c;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+   width: 50%;
+}
+
+.criteres {
+    display: flex;
+    flex-direction: column;
+
+margin: 20px;
+}
+
+
+.trajet img{
+    width: 35px;
+}
+.time-date{
+    display: flex;
+}
+
+.Lieu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.Lieu b{
+    margin-bottom: 50px;
+
+}
+.Lieu b:last-child{
+    margin-bottom: 0}
+    ;
+
+.Prix{
+    position: relative;
+    bottom:0px;
+    right: 0px;}
+
+.time{
+    margin-right: 10px;
+}
+
+.Lieu img{
+    width: 20px;
+}
+.last-row{
+    display: flex;
+    justify-content: space-between;
+}
+.optionss{
+    margin-left: 40%;
+}
+.optionss img{
+    margin-left: 10px;
+}
+.boutton{
+    background: rgb(196, 86, 93);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    width: 100%;
+}
+.details-conducteur{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: -100px;
+}
+.Driver img{
+    width: 50px;
+}
+.Driver label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #403e57;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    
+    
+}
+
+.Driver p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #403e57;
+    display: inline;
+    margin-left: 20px;
+}
+.Driver p,.Driver label{
+    margin-top: 10px;
+}
+
+.ide{
+    position: relative;
+    top:-70px;
+    margin-left: -80px;
+}
+
+.bouttons{
+    margin-left: -200px;
+    align-items:center ;
+}
+
+.Options h2{
+    position: relative;
+    top:-70px;
+    left: 50px;
+}
+.Options p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #403e57;
+    width: 150px;
+    text-align: center;
+    
+    
+}
+.barre-vertical {
+    width: 2px; 
+    height: 70px;
+    background-color:#7c7a8d ; 
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}

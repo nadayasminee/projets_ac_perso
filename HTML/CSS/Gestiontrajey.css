@@ -1,0 +1,45 @@
+
+.table td{
+    padding: 0px 12px;
+    background-color: #f3f3f3;
+    
+}
+
+.table .boutton{
+    background: rgb(196, 86, 93);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.table .button-ok {
+    background-color: teal; 
+    cursor: pointer; 
+}
+
+
+.boutton{
+    background: rgb(196, 86, 93);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.table .button-row {
+    background-color: transparent;
+}
+

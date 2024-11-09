@@ -1,0 +1,41 @@
+#formulaire {
+    display: inline-block; 
+    align-items: center;
+    
+}
+
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.button {
+    width: 100%;
+    background: rgb(196, 86, 93);
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#formulaire input {
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #2b2a4c;
+    border-radius: 20px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 5px;
+}
+
+.form-row input[type="text"]{
+    width: 65%; 
+}
+

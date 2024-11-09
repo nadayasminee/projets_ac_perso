@@ -1,0 +1,89 @@
+
+hr {
+    width: 100%; 
+    margin-left: 20px;
+    color: #2b2a4c;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.trajet{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    border-color: #2b2a4c;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin: 20px;
+    justify-content: space-evenly;
+   
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 40%;
+}
+label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #403e57;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    
+ 
+}
+
+.criteres {
+    display: flex;
+    flex-direction: column;
+
+margin: 20px;
+}
+
+
+.trajet img{
+    width: 50px;
+}
+.time-date{
+    display: flex;
+}
+
+.Lieu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.Lieu b{
+    margin-bottom: 50px;
+
+}
+.Lieu b:last-child{
+    margin-bottom: 0}
+    ;
+
+.Prix{
+    position: relative;
+    bottom:0px;
+    right: 0px;}
+
+.time{
+    margin-right: 10px;
+}
+
+.Lieu img{
+    width: 20px;
+}
+.last-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+#driver{
+   margin-bottom: 20px;
+}
